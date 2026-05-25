@@ -1,0 +1,102 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(to right,
+              #141e30,
+              #243b55);
+
+  color: white;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  min-height: 100vh;
+
+  margin: 0;
+}
+
+
+.container {
+
+  width: 400px;
+
+  text-align: center;
+}
+
+
+h1 {
+
+  margin-bottom: 20px;
+}
+
+
+input {
+
+  width: 70%;
+
+  padding: 10px;
+
+  border-radius: 8px;
+
+  border: none;
+
+  outline: none;
+}
+
+
+button {
+
+  padding: 10px 15px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: crimson;
+
+  color: white;
+
+  cursor: pointer;
+
+  margin-left: 5px;
+}
+
+
+button:hover {
+
+  background: darkred;
+}
+
+
+.movie-card {
+
+  background: rgba(255,255,255,0.1);
+
+  margin-top: 20px;
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  backdrop-filter: blur(10px);
+}
+
+
+.movie-card img {
+
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+
+.movie-card p {
+
+  text-align: left;
+
+  margin-top: 10px;
+}
